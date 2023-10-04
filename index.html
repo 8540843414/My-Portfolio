@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/279957d468.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+    <nav>
+        <h1 class="hello"> 𝓟riyam 𝓟riyadarshi</h1>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+
+    </nav>
+    <div class="header-text">
+        <p>𝓦𝓮𝓫 𝓓𝓮𝓿𝓮𝓵𝓸𝓹𝓮𝓻</p>
+        <h1>Hi I'm<span> Priyam </span><br> Priyadarshi 𝙁𝙧𝙤𝙢 India</h1>
+    </div>
+    </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="front.png" alt="">
+            </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I adept at contributing to highly collaborative work environment and finding solutions. Proven experience developing consumer-focused websites using HTML, CSS, PHP and JavaScript. Good knowledge of the best practices for web design, user experience, and speed.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>For documents designed to be displayed in a web browser.</li>
+                            <li><span>CSS</span><br>For controlling the layout of multiple web pages all at once.</li>
+                            <li><span>BootStrap</span><br>To enable responsive development of mobile-first websites. </li>
+                            <li><span>Java Script</span><br>To create dynamically updating content,animate images,pretty much everything else.</li>
+                            <li><span>Java(fundamentals)</span><br>For supporting several OOP features like Objects, Class, Data Abstraction etc.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Matriculation(CBSE)</span><br>Holy Mission School,Darbhanga <br>2018 </li>
+                            <li><span>Intermediate(CBSE)</span><br>ST Paul Sec School,Samastipur <br>2020 <br>70.8%</li>
+                            <li><span>Bachelor in Computer Application</span><br>Usha Martin University,Ranchi<br>2023 <br>8.0(Cgpa)</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-end Development</h2>
+                    <p>For creating dynamic user experiences.It's about developing great websites with the perspective of end-users-what they see,what they interact with,and how they use functionality in mind. </p>
+                <a href="#">Learn more</a>
+                </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+            <h2>Web Design</h2>
+                    <p>For creating beautiful user Interfaces and make sure that all the visual and interactive aspects of an app are easy to understand,practial and efficient at retaining users attention.</p>
+                <a href="#">Learn more</a>
+        </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-question"></i>
+               <h2>QA(fundamentals)</h2>
+                    <p>Ensures that the website code is of the highest quality and that its users enjoy a top-tier user experience</p>
+                <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="project1.png" alt="">
+                    <div class="layer">
+                        <h3>Photo Shop</h3>
+                        <p>one of the best raster graphics editors, the application developed and published by Priyam. for Windows and Mac OS operating system users. The initial digital tool to make images, gifs, . pdf files, and many more.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="project2.png" alt="">
+                    <div class="layer">
+                        <h3>Spotify</h3>
+                        <p> It is a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world. Basic functions such as playing music are totally free.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="project3.png" alt="">
+                    <div class="layer">
+                        <h3>Solar System</h3>
+                        <p> It is the region of space that humans can actually or theoretically observe with the aid of technology. Unlike the observable universe, the universe is possibly infinite.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+     <!--------------contact------------->
+     <div id="contact">
+        <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> priyampriyadarshi2003@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +91 8540844314</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                 </div>
+                 <a href="Priyam Priyadarshi Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        </div>
+     </div>
+
+
+    <script>
+         var tablinks = document.getElementsByClassName("tab-links");
+         var tabcontents = document.getElementsByClassName("tab-contents");
+
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html> 
