@@ -40,14 +40,3 @@ my-portfolio/
 ├── package.json
 └── README.md
 
-
-🤝 Connect with Me
-LinkedIn
-
-GitHub
-
-Instagram
-
-Portfolio
-
-
